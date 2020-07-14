@@ -347,3 +347,4 @@ dmypy.json
 
 # Python Virtual Env
 /wgenv
+.vscode/settings.json
