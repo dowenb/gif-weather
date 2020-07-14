@@ -1,0 +1,6 @@
+version: '3.3'
+services:
+  gifweather:
+    image: 
+    ports:
+    - "8000:8000"
