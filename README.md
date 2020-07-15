@@ -7,10 +7,13 @@ API that mashes up a weather service and a GIF service. This app is intended for
 pip install -r requirements.txt
 ```
 
-## Run with uvicorn
+## Run locally with uvicorn
+
+Note: use `--reload` for development. It will automatically reload when the source is changed.
 
 ```
 uvicorn main:app
+uvicorn main:app --reload
 ```
 
 ## Build docker image
@@ -23,4 +26,10 @@ docker build . -t fullsnacktestengineer/gifweather:local
 
 ```
 docker run -p 8000:8000 fullsnacktestengineer/gifweather:local
+```
+
+## Run unit tests
+
+```
+pytest
 ```

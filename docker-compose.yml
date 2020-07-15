@@ -1,6 +1,6 @@
 version: '3.3'
 services:
   gifweather:
-    image: 
+    image: 'fullsnacktestengineer/gifweather:local'
     ports:
-    - "8000:8000"
+    - "8000:80"
