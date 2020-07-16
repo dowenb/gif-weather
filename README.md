@@ -31,5 +31,5 @@ docker run -p 8000:8000 fullsnacktestengineer/gifweather:local
 ## Run unit tests
 
 ```
-pytest
+pytest test_main.py
 ```
